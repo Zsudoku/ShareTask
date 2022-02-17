@@ -468,7 +468,7 @@ def mainWork():
 
 
 if __name__ == '__main__':
-    b = pyautogui.confirm(text='要开始程序么？在开始前，请确保当前处于安信证券安睿版的自选页面', title='请求框', buttons=['开始','取消'])
+    b = pyautogui.confirm(text='要开始程序么？在开始前，请确保当前处于xxxxxx的自选页面', title='请求框', buttons=['开始','取消'])
     if(b == '取消'):
         pyautogui.alert(text='程序运行结束！', title='请求框', button='OK')
         sys.exit()
