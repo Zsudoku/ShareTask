@@ -1,0 +1,16 @@
+python -m pip install --upgrade pip
+# python -m pip install --user  --upgrade pip
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+pip install pyperclip
+pip install xlrd
+pip install pyautogui==0.9.50
+pip install opencv-python
+pip install pillow
+pip install re==2.2.1
+pip install selenium
+pip install pandas
+pip install pyinstaller
+
+打包
+pyinstaller -F -i img.ico task.py
